@@ -1,0 +1,11 @@
+<form (ngSubmit)="onSubmit()">
+    <div class="forms">
+        <label for="text">Task</label>
+        <input type="text" name="text" [(ngModel)]="text" id="text" placeholder="Add task">
+    </div>
+    <div class="forms">
+        <label for="day">Date and Time</label>
+        <input type="datetime-local" name="day" id="day" [(ngModel)]="day"  placeholder="Add Date and Time">
+    </div>
+    <input type="submit" value="Save Task" class="submit">
+</form>

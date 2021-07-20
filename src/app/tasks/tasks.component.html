@@ -1,0 +1,3 @@
+<app-add-tasks (onAddTask)="addTask($event)"></app-add-tasks>
+<app-task-items *ngFor="let task of tasks" [task]="task" (onClickRemoveTask)="removeTask(task)">{{task.text}}
+</app-task-items>

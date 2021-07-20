@@ -1,0 +1,10 @@
+button {
+    color: rgb(67, 145, 155);
+    background: rgb(214, 213, 213);
+    text-decoration: none;
+}
+
+button:hover {
+    color: white;
+    background: gray;
+}
